@@ -1,18 +1,18 @@
 {
-  "name": "chatbot",
-  "homepage": "https://badingaguyde-glitch.github.io/React-projet",
+    "name": "chatbot",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://badingaguyde-glitch.github.io/ReactProject1",
   "type": "module",
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
+    "scripts": {
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
-,
+  "deploy": "gh-pages -d dist",
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "dependencies": {
-    "react": "^19.2.0",
+    "react": "^19.2.0",   
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
