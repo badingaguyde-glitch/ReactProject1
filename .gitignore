@@ -7,8 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
 *.local
+dist
 
 # Editor directories and files
 .vscode/*
@@ -20,3 +20,4 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+git remote set-url origin https://github.com/badingaguyde-glitch/ReactProject1.git
