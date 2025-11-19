@@ -7,7 +7,7 @@ function FavoriPaneli({kitaplar,favoriler, favorilerKaldir}) {
         <div id="Favoriler" style={{marginBottom:12}}>
             <h2>Favoriler ({favoriKitaplar.length})</h2>
             {favoriKitaplar.length===0 ? (
-                <p>Henüz favori eklenmedi.</p>
+                <p>Henüz hic favori eklenmedi.</p>
             ):(
                 <ul>
                     {favoriKitaplar.map((k)=>(
