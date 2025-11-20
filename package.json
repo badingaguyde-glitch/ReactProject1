@@ -5,7 +5,7 @@
   "homepage": "https://badingaguyde-glitch.github.io/ReactProject1",
   "type": "module",
     "scripts": {
-  "predeploy": "npm run build",
+  "predeploy": "GITHUB=truenpm run build",
   "deploy": "gh-pages -d dist",
   "dev": "vite",
   "build": "vite build",
